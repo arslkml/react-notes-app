@@ -20,6 +20,7 @@ const NoteForm = ({ onAddNote }) => {
 
     return (
         <form onSubmit={handleSubmit} className={'mb-8'}>
+            <h1 className={'text-xl font-semibold mb-4'}>Buat Catatan</h1>
             <div className="mb-4">
                 <input
                     type="text"
